@@ -21,7 +21,7 @@ export const DEFAULT_VALUES = [
   },
   {
     name: "Saturation",
-    property: "saturation",
+    property: "saturate",
     value: 100,
     range: {
       min: 0,
@@ -57,7 +57,7 @@ export const DEFAULT_VALUES = [
       min: 0,
       max: 360,
     },
-    unit: "%",
+    unit: "deg",
   },
   {
     name: "Blur",
