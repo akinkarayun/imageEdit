@@ -13,7 +13,7 @@ export const Slider: React.FC<ISliderProps> = (props: ISliderProps) => {
     <div className="slidercontainer">
       <div className="slidervalue">
         <span>Current Value</span>
-        <span>{props.value}</span>
+        <span style={{ fontWeight: "bold" }}>{props.value}</span>
       </div>
       <input min={props.min} max={props.max} value={props.value} onChange={props.handleChange} type="range" className="slider" />
       <div className="slidervalue">
